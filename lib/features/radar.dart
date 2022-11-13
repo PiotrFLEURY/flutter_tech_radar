@@ -94,7 +94,7 @@ class RadarView extends StatelessWidget {
                   .map((group) {
                 return RadarBlip(
                   group: group,
-                  size: size / 24,
+                  size: size / 20,
                 );
               }).toList(),
             ),

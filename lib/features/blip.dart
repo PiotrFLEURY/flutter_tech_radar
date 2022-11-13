@@ -20,29 +20,37 @@ class RadarBlip extends StatelessWidget {
       height: size,
       width: size,
       child: GridView.builder(
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: max(2, sqrt(group.length)).toInt(),
-          ),
-          itemCount: group.length,
-          primary: false,
-          physics: const NeverScrollableScrollPhysics(),
-          itemBuilder: (context, index) {
-            final blip = group[index];
-            return Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: Tooltip(
-                message: blip.label,
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(
-                      size,
-                    ),
-                    color: Colors.white,
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: sqrt(group.length).toInt() + 1,
+          childAspectRatio: 1.0,
+        ),
+        itemCount: group.length,
+        primary: false,
+        physics: const NeverScrollableScrollPhysics(),
+        itemBuilder: (context, index) {
+          final blip = group[index];
+          return Padding(
+            padding: const EdgeInsets.all(2.0),
+            child: Tooltip(
+              message: blip.label,
+              child: Container(
+                width: size,
+                height: size,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(
+                    size,
                   ),
+                  color: Colors.white,
+                ),
+                child: Text(
+                  blip.label.characters.first,
+                  textAlign: TextAlign.center,
                 ),
               ),
-            );
-          }),
+            ),
+          );
+        },
+      ),
     );
   }
 }

@@ -22,14 +22,29 @@ class RadarQuadrant extends StatelessWidget {
         alignment: alignment,
         child: Text(
           label,
+          textAlign: textAlign,
           style: TextStyle(
-            fontSize: 32.0,
+            fontSize: size / 20,
             fontWeight: FontWeight.w800,
             color: Colors.brown[700],
           ),
         ),
       ),
     );
+  }
+
+  TextAlign get textAlign {
+    if (alignment == Alignment.topLeft) {
+      return TextAlign.left;
+    } else if (alignment == Alignment.topRight) {
+      return TextAlign.right;
+    } else if (alignment == Alignment.bottomLeft) {
+      return TextAlign.left;
+    } else if (alignment == Alignment.bottomRight) {
+      return TextAlign.right;
+    } else {
+      return TextAlign.center;
+    }
   }
 
   double get top =>

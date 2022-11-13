@@ -46,5 +46,13 @@
     {
       "label": "IONIC",
       "ring": "Hold"
+    },
+    {
+      "label": "Git",
+      "ring": "Adopt"
+    },
+    {
+      "label": "SVN",
+      "ring": "Hold"
     }
   ]

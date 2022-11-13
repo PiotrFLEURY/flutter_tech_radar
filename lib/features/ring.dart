@@ -32,8 +32,8 @@ class RadarRing extends StatelessWidget {
           padding: const EdgeInsets.all(24.0),
           child: Text(
             label,
-            style: const TextStyle(
-              fontSize: 32.0,
+            style: TextStyle(
+              fontSize: size / 20,
               fontWeight: FontWeight.w800,
               color: Colors.white,
             ),
