@@ -1,0 +1,26 @@
+[
+    {
+      "label": "VsCode",
+      "ring": "Adopt"
+    },
+    {
+      "label": "IntelliJ",
+      "ring": "Adopt"
+    },
+    {
+      "label": "eclipse",
+      "ring": "Hold"
+    },
+    {
+      "label": "Aqua",
+      "ring": "Assess"
+    },
+    {
+      "label": "CodeSpaces",
+      "ring": "Trial"
+    },
+    {
+      "label": "PGAdmin",
+      "ring": "Hold"
+    }
+  ]

@@ -1,0 +1,58 @@
+[
+    {
+      "label": "Flutter",
+      "ring": "Adopt"
+    },
+    {
+      "label": "Dart",
+      "ring": "Adopt"
+    },
+    {
+      "label": "Spring boot",
+      "ring": "Adopt"
+    },
+    {
+      "label": "Android",
+      "ring": "Adopt"
+    },
+    {
+      "label": "IOS",
+      "ring": "Adopt"
+    },
+    {
+      "label": "Swift",
+      "ring": "Adopt"
+    },
+    {
+      "label": "Kotlin",
+      "ring": "Adopt"
+    },
+    {
+      "label": "nodeJs",
+      "ring": "Adopt"
+    },
+    {
+      "label": "nestJs",
+      "ring": "Adopt"
+    },
+    {
+      "label": "Angular",
+      "ring": "Hold"
+    },
+    {
+      "label": "ReactJs",
+      "ring": "Adopt"
+    },
+    {
+      "label": "IONIC",
+      "ring": "Hold"
+    },
+    {
+      "label": "Git",
+      "ring": "Adopt"
+    },
+    {
+      "label": "SVN",
+      "ring": "Hold"
+    }
+  ]

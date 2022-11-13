@@ -1,0 +1,33 @@
+[
+    {
+      "label": "Windows",
+      "ring": "Hold"
+    },{
+      "label": "Linux",
+      "ring": "Trial"
+    },
+    {
+      "label": "MacOS",
+      "ring": "Adopt"
+    },
+    {
+      "label": "Github",
+      "ring": "Adopt"
+    },
+    {
+      "label": "Gitlab",
+      "ring": "Adopt"
+    },
+    {
+      "label": "BitBucket",
+      "ring": "Assess"
+    },
+    {
+      "label": "Google Cloud Platform",
+      "ring": "Adopt"
+    },
+    {
+      "label": "AWS",
+      "ring": "Adopt"
+    }
+  ]
