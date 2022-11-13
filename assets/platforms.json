@@ -1,0 +1,13 @@
+[
+    {
+      "label": "Windows",
+      "ring": "Hold"
+    },{
+      "label": "Linux",
+      "ring": "Trial"
+    },
+    {
+      "label": "MacOS",
+      "ring": "Adopt"
+    }
+  ]

@@ -1,0 +1,14 @@
+[
+    {
+      "label": "Scrum",
+      "ring": "Adopt"
+    },
+    {
+      "label": "TDD",
+      "ring": "Adopt"
+    },
+    {
+      "label": "BDD",
+      "ring": "Adopt"
+    }
+  ]
